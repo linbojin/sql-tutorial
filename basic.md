@@ -1,3 +1,4 @@
+```
 ~/o/sql-tutorial ❯❯❯ psql mydb
 psql (9.5.4)
 Type "help" for help.
@@ -140,3 +141,4 @@ mydb-# LIMIT 5;
 (5 rows)
 
 mydb=#
+```
