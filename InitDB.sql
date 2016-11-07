@@ -48,8 +48,12 @@ COPY OrderDetails(OrderID, ProductID, Quantity)
 FROM '/Users/tony/opensource/sql-tutorial/tables/OrderDetails.csv' DELIMITER ';' CSV HEADER;
 
 
+/* use a custom sequence */
+CREATE SEQUENCE orders_orderid_seq
+  start 10248
+  increment 1;
 CREATE TABLE Orders(
-  OrderID serial PRIMARY KEY,
+  OrderID INT PRIMARY KEY DEFAULT nextval('orders_orderid_seq'),
   CustomerID INT,
   EmployeeID INT,
   OrderDate date,
