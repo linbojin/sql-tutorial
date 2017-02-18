@@ -2,9 +2,9 @@
 Table of Contents
 =================
 
-   * [SQL Note functions](#sql-note-functions)
-         * [GROUP BY](#group-by)
-         * [HAVING](#having)
+ * [SQL Note functions](#sql-note-functions)
+       * [GROUP BY](#group-by)
+       * [HAVING](#having)
 
 SQL has many built-in functions for performing calculations on data.
 
