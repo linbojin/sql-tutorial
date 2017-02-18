@@ -2,22 +2,22 @@
 Table of Contents
 =================
 
-   * [SQL Note Schema](#sql-note-schema)
-         * [CREATE DATABASE](#create-database)
-         * [CREATE TABLE](#create-table)
-         * [SQL Constraints](#sql-constraints)
-            * [NOT NULL](#not-null)
-         * [UNIQUE](#unique)
-            * [PRIMARY KEY](#primary-key)
-            * [FOREIGN KEY](#foreign-key)
-            * [CHECK Constraint](#check-constraint)
-            * [DEFAULT](#default)
-         * [CREATE INDEX](#create-index)
-         * [DROP](#drop)
-         * [ALTER](#alter)
-         * [Auto-increment](#auto-increment)
-         * [View](#view)
-         * [SQL Comments](#sql-comments)
+* [SQL Note Schema](#sql-note-schema)
+ * [CREATE DATABASE](#create-database)
+ * [CREATE TABLE](#create-table)
+ * [SQL Constraints](#sql-constraints)
+    * [NOT NULL](#not-null)
+ * [UNIQUE](#unique)
+    * [PRIMARY KEY](#primary-key)
+    * [FOREIGN KEY](#foreign-key)
+    * [CHECK Constraint](#check-constraint)
+    * [DEFAULT](#default)
+ * [CREATE INDEX](#create-index)
+ * [DROP](#drop)
+ * [ALTER](#alter)
+ * [Auto-increment](#auto-increment)
+ * [View](#view)
+ * [SQL Comments](#sql-comments)
 
 ### CREATE DATABASE
 ```
